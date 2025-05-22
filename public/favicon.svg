@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background rectangle with rounded corners -->
+  <rect width="32" height="32" rx="6" fill="#3498db"/>
+  
+  <!-- "DS" text -->
+  <text x="16" y="22" font-family="Arial, sans-serif" font-weight="bold" font-size="16" 
+        text-anchor="middle" fill="white">DS</text>
+</svg> 

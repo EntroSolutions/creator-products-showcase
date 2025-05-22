@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+  <!-- DevCo Solutions Logo -->
+  <rect x="0" y="5" width="40" height="40" rx="8" fill="#3498db"/>
+  <text x="8" y="35" font-family="Arial, sans-serif" font-weight="bold" font-size="30" fill="white">DS</text>
+  <text x="50" y="30" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#2c3e50">DevCo Solutions</text>
+</svg> 

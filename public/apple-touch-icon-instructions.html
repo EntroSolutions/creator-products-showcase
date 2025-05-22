@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Touch Icon Instructions</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        pre { background: #f5f5f5; padding: 15px; border-radius: 4px; overflow-x: auto; }
+        .note { background: #fffde7; padding: 10px; border-left: 4px solid #ffd600; margin: 15px 0; }
+    </style>
+</head>
+<body>
+    <h1>Creating Apple Touch Icon</h1>
+    
+    <p>The SVG favicon has been created, but you also need to create the Apple Touch Icon (180×180 pixels) for iOS devices. Here's how:</p>
+    
+    <h2>Option 1: Use Online Favicon Generators</h2>
+    <ol>
+        <li>Visit a site like <a href="https://favicon.io" target="_blank">favicon.io</a> or <a href="https://realfavicongenerator.net" target="_blank">Real Favicon Generator</a></li>
+        <li>Upload your SVG or create a new icon</li>
+        <li>Download the complete package</li>
+        <li>Place the <code>apple-touch-icon.png</code> file in your public directory</li>
+    </ol>
+    
+    <h2>Option 2: Create from Existing SVG</h2>
+    <p>Use an image editing tool or command line to convert the SVG to PNG:</p>
+    <pre>convert favicon.svg -resize 180x180 apple-touch-icon.png</pre>
+    
+    <h2>Design Recommendations</h2>
+    <ul>
+        <li>Use a square design (will be rounded by iOS)</li>
+        <li>Keep important elements centered and away from edges</li>
+        <li>Use a solid background color (not transparent)</li>
+        <li>Size: exactly 180×180 pixels</li>
+    </ul>
+    
+    <div class="note">
+        <p><strong>Note:</strong> The layout already references <code>apple-touch-icon.png</code> in the head section. After creating this file, place it in the public directory of your Laravel application. You can delete this instruction file afterward.</p>
+    </div>
+</body>
+</html> 
