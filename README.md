@@ -5,3 +5,4 @@
 Laravel Product Showcase is inspired by Indie Pages and offers a free portfolio website with Laravel and Filament for management.
 
 
+Demo URL https://devco.solutions
